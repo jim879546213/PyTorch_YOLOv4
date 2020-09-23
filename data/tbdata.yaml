@@ -1,6 +1,4 @@
-# COCO 2017 dataset http://cocodataset.org
-# Download command: bash ./get_coco2017.sh
-# Train command: python train.py --data ./data/coco.yaml
+
 # Dataset should be placed next to code folder:
 #   /parent_folder
 #     /coco
@@ -8,9 +6,8 @@
 
 
 # train and val datasets (image directory or *.txt file with image paths)
-train: ../data/train.txt  # 118k images
-val: ../data/valid.txt  # 5k images
-
+train: /content/train/images
+val: /content/valid/images
 
 # number of classes
 nc: 1
